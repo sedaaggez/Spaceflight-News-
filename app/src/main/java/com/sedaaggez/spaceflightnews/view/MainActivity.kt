@@ -1,7 +1,8 @@
-package com.sedaaggez.spaceflightnews
+package com.sedaaggez.spaceflightnews.view
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.sedaaggez.spaceflightnews.R
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
