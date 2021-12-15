@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/news_navigation"
+    app:startDestination="@id/spaceflightNewsListFragment">
+
+    <fragment
+        android:id="@+id/spaceflightNewsListFragment"
+        android:name="com.sedaaggez.spaceflightnews.view.SpaceflightNewsListFragment"
+        android:label="Spaceflight News List"
+        tools:layout="@layout/fragment_spaceflight_news_list">
+        <action
+            android:id="@+id/action_spaceflightNewsListFragment_to_newsFragment"
+            app:destination="@id/newsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/newsFragment"
+        android:name="com.sedaaggez.spaceflightnews.view.NewsFragment"
+        android:label="News Fragment"
+        tools:layout="@layout/fragment_news" />
+</navigation>
