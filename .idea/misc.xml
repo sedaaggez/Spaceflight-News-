@@ -5,6 +5,7 @@
       <map>
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.1640625" />
         <entry key="app/src/main/res/layout/fragment_news.xml" value="0.1640625" />
+        <entry key="app/src/main/res/layout/item_space_flight_news.xml" value="0.16041666666666668" />
       </map>
     </option>
   </component>
